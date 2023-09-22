@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is the create user of the web server.">
+        <meta name="name" content="Boncui">
+        <link href="createUser_layout.css" rel="stylesheet" type="text/css">
+        <title>Web Server New User</title>
+    </head>
+    
+    <body>
+        <p>Welcome New User</p>
+        <form method="GET" action="createUser.php">
+            <div class="inputform">
+                <label for="user">Username</label>
+                <input type="text" id="user" name="user">
+                <input type="submit" value="Create User">
+            </div>
+        </form>
+        <br>
+        <div class="submit">
+            <button onClick="window.location.href='login.php'">Back to Login</button>
+        </div>
+    </body>
+    </html>
+</html>
